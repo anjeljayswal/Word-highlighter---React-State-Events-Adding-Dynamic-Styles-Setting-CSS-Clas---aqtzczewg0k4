@@ -18,4 +18,5 @@ Here the user will enter the text they want to search from.
 <li>class .highlighted-text is already defined for you</li>
 </ul>
 
-![video](https://d3dyfaf3iutrxo.cloudfront.net/general/upload/881ebc09613246f492967695a4d584a1.mp4)
+video:- 
+(https://d3dyfaf3iutrxo.cloudfront.net/general/upload/881ebc09613246f492967695a4d584a1.mp4)
