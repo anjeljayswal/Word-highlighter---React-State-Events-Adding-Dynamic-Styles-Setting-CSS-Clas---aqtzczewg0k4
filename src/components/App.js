@@ -5,10 +5,10 @@ import { ParagraphInput } from './ParagraphInput';
 import { WordInput } from './WordInput';
 const App = () => {
   const [word, setWord] = useState("")
-  const [wordCount,setWordCount] = useState(0)
+  const [wordCount, setWordCount] = useState(0)
   const ref = useRef()
   const [ignoreCase, setIgnoreCase] = useState(false)
-  const highlight = (val,wordCase) =>{
+  const highlight = (val, wordCase) => {
     let newt = ''
     let i = 0
     if (wordCase) {
@@ -28,11 +28,11 @@ const App = () => {
     ref.current.innerHTML = newt
   }
   const handleWordInput = (val) => {
-    highlight(val,ignoreCase)
+    highlight(val, ignoreCase)
     setWord(val)
   }
-  const handleChangeToggle = () =>{
-    highlight(word,!ignoreCase)
+  const handleChangeToggle = () => {
+    highlight(word, !ignoreCase)
     setIgnoreCase(!ignoreCase)
 
   }
